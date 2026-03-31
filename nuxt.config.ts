@@ -57,6 +57,12 @@ export default defineNuxtConfig({
     // Server-only keys
     bigqueryProjectId: '',
     bigqueryDataset: '',
+    smtpHost: process.env.SMTP_HOST || '',
+    smtpPort: process.env.SMTP_PORT || '',
+    smtpUser: process.env.SMTP_USER || '',
+    smtpPass: process.env.SMTP_PASS || '',
+    businessEmail: process.env.BUSINESS_EMAIL || '',
+    adminPassword: process.env.ADMIN_PASSWORD || 'secret123',
     // Public keys (exposed to client)
     public: {
       siteUrl: 'https://glassexpertsfl.org',
