@@ -24,46 +24,49 @@
 </template>
 
 <script setup lang="ts">
-import slidingDoor from '~/assets/images/sliding-door.png'
-import windowRepair from '~/assets/images/window-repair.png'
-import commercialGlass from '~/assets/images/commercial-glass.png'
+import styling from '~/assets/images/styling-v2.png'
+import detailing from '~/assets/images/detail-v2.png'
+import aesthetics from '~/assets/images/aesthetics-v2.png'
+import mech from '~/assets/images/mech-v2.png'
+import tech from '~/assets/images/tech-v2.png'
+import comm from '~/assets/images/comm-v2.png'
 
 const services = [
   {
     id: 'service-auto-styling',
     title: 'Automotive Styling',
     description: 'Expert window tinting, headlight & taillight tints, custom vinyl wraps, decals, and chrome deletes for a total transformation.',
-    image: slidingDoor,
+    image: styling,
   },
   {
     id: 'service-paint-protection',
     title: 'Detailing & Protection',
     description: 'Full interior/exterior detailing, paint correction, and ceramic coating for long-lasting "iced-out" shine and protection.',
-    image: windowRepair,
+    image: detailing,
   },
   {
     id: 'service-custom-wheels',
     title: 'Custom Aesthetics',
     description: 'Painted rims and painted calipers in any color of your choice, plus custom "shooting stars" interior headliners.',
-    image: commercialGlass,
+    image: aesthetics,
   },
   {
     id: 'service-mechanical',
     title: 'Mechanical Maintenance',
     description: 'Keeping your vehicle running as good as it looks with professional oil changes, brake service, and new tires.',
-    image: slidingDoor,
+    image: mech,
   },
   {
     id: 'service-aftermarket',
     title: 'Tech & Aftermarket Installs',
     description: 'Installation of radios, speakers, and any aftermarket parts to upgrade your ride with the latest technology.',
-    image: windowRepair,
+    image: tech,
   },
   {
     id: 'service-arch-tint',
     title: 'Commercial & Home Tints',
     description: 'Professional tinting for your business or home to improve energy efficiency, privacy, and curb appeal.',
-    image: slidingDoor,
+    image: comm,
   },
 ]
 </script>
@@ -71,26 +74,28 @@ const services = [
 <style scoped>
 .services-section {
   padding: var(--section-padding);
-  background: var(--gray-bg);
+  background: var(--navy-deep);
 }
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
 .service-card {
-  background: var(--white);
+  background: var(--gray-card);
   border-radius: var(--radius-lg);
   overflow: hidden;
   box-shadow: var(--shadow-md);
   transition: all var(--transition-medium);
+  border: 1px solid var(--border-light);
 }
 
 .service-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.4);
+  border-color: var(--primary);
 }
 
 .service-image {
@@ -114,13 +119,13 @@ const services = [
 }
 
 .service-body h3 {
-  font-size: 1rem;
-  color: var(--navy);
+  font-size: 1.1rem;
+  color: var(--white);
   margin-bottom: 10px;
 }
 
 .service-body p {
-  color: var(--text-muted);
+  color: var(--text-secondary);
   font-size: 0.88rem;
   line-height: 1.6;
   margin-bottom: 16px;

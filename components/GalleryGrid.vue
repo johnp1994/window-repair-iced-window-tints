@@ -20,26 +20,26 @@
 </template>
 
 <script setup lang="ts">
-import slidingDoor from '~/assets/images/sliding-door.png'
-import windowRepair from '~/assets/images/window-repair.png'
-import commercialGlass from '~/assets/images/commercial-glass.png'
-import companyVan from '~/assets/images/company-van.png'
-import heroBg from '~/assets/images/hero-bg.png'
+import pinkBronco from '~/assets/images/pink-bronco.png'
+import yellowCharger from '~/assets/images/yellow-charger.png'
+import styling from '~/assets/images/styling-v2.png'
+import detailing from '~/assets/images/detail-v2.png'
+import comm from '~/assets/images/comm-v2.png'
 
 const galleryItems = [
-  { image: slidingDoor, alt: 'Vehicle window tinting' },
-  { image: windowRepair, alt: 'Home window glass repair' },
-  { image: commercialGlass, alt: 'Commercial window tinting' },
-  { image: companyVan, alt: 'Iced Window Tints service vehicle' },
-  { image: heroBg, alt: 'Window repair work in progress' },
-  { image: slidingDoor, alt: 'Completed window tint job' },
+  { image: pinkBronco, alt: 'Custom Pink Bronco styling and tint' },
+  { image: yellowCharger, alt: 'Yellow Charger with dark premium window tint' },
+  { image: styling, alt: 'Professional automotive styling details' },
+  { image: detailing, alt: 'High-gloss ceramic coating transformation' },
+  { image: comm, alt: 'Commercial window tinting shop exterior' },
+  { image: pinkBronco, alt: 'Completed "Iced Out" custom wrap' },
 ]
 </script>
 
 <style scoped>
 .gallery-section {
   padding: var(--section-padding);
-  background: var(--navy);
+  background: var(--dark);
 }
 
 .gallery-section .section-label {
