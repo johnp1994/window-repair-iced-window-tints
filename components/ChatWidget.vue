@@ -19,7 +19,32 @@ useHead({
         createChat({
           webhookUrl: 'https://primary-production-55e84.up.railway.app/webhook/d078abf0-ba5e-4eaa-a155-032f00233774/chat',
           target: '#n8n-chat-widget',
-          mode: 'window'
+          mode: 'window',
+          chatLink: {
+            title: 'The Glassperts Chat',
+            text: 'Need help? Chat with us now!'
+          },
+          metadata: {
+            site_knowledge: \`
+              Business Name: The Glassperts
+              Primary Services: 
+              1. Sliding Glass Door Repair (Tracks, Rollers, Locks)
+              2. Window Glass Repair (Cracked or damaged glass)
+              3. Commercial Glass (Storefronts, office windows)
+              4. Impact Windows & Doors (Durable installation)
+              
+              Service Areas (South Florida): 
+              Miami, Kendall, Coral Gables, Homestead, Pinecrest, Miami Lakes, Miami Beach, Hollywood, Cutler Bay, Cutler Ridge.
+              
+              How It Works: 
+              1. Contact Us
+              2. Free Estimate (No-obligation)
+              3. Professional Repair
+              4. Complete!
+              
+              Company Promise: Over 23 years of industry experience serving South Florida. High quality materials and expert technicians.
+            \`.trim()
+          }
         });
       `
     }
