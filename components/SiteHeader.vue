@@ -2,7 +2,7 @@
   <header id="site-header" :class="{ scrolled: isScrolled }">
     <div class="header-inner">
       <NuxtLink to="/" class="logo" id="header-logo">
-        <img src="~/assets/images/logo.png" alt="The Glassperts Logo" />
+        <img src="~/assets/images/logo.png" alt="Iced Window Tints Logo" />
       </NuxtLink>
 
       <nav id="main-nav" :class="{ active: isMobileMenuOpen }">
@@ -15,10 +15,10 @@
               SERVICES <i class="fas fa-chevron-down"></i>
             </a>
             <ul class="dropdown">
-              <li><a href="#services" @click="scrollTo('#services')">Sliding Glass Door Repair</a></li>
-              <li><a href="#services" @click="scrollTo('#services')">Window Glass Repair</a></li>
-              <li><a href="#services" @click="scrollTo('#services')">Commercial Glass Repair</a></li>
-              <li><a href="#services" @click="scrollTo('#services')">Impact Windows and Doors</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Vehicle Window Tinting</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Home Window Repair</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Commercial Window Tinting</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Storm Window Solutions</a></li>
             </ul>
           </li>
           <li>
@@ -29,16 +29,16 @@
               SERVICE AREAS <i class="fas fa-chevron-down"></i>
             </a>
             <ul class="dropdown">
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Miami</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Kendall</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Coral Gables</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Homestead</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Pinecrest</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Miami Lakes</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Miami Beach</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Hollywood</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Cutler Bay</a></li>
-              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Cutler Ridge</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Cleveland</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Lakewood</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Euclid</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Parma</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Cleveland Heights</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Shaker Heights</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Garfield Heights</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Solon</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Beachwood</a></li>
+              <li><a href="#service-areas" @click="scrollTo('#service-areas')">Westlake</a></li>
             </ul>
           </li>
           <li>
@@ -52,8 +52,8 @@
 
       <div class="header-ctas">
         <a href="#quote-form" class="btn btn-yellow" id="header-quote-btn" @click="scrollTo('#quote-form')">GET FREE QUOTE</a>
-        <a href="tel:+18664937545" class="btn btn-white" id="header-phone-btn">
-          <i class="fas fa-phone"></i> (866)-493-7545
+        <a href="tel:+12166788692" class="btn btn-white" id="header-phone-btn">
+          <i class="fas fa-phone"></i> (216) 678-8692
         </a>
       </div>
 

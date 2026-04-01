@@ -11,7 +11,7 @@
 
           <div class="funnel-body">
             <div class="brand-logo-wrap">
-              <img src="~/assets/images/logo.png" alt="The Glassperts" class="brand-logo" />
+              <img src="~/assets/images/logo.png" alt="Iced Window Tints" class="brand-logo" />
             </div>
 
             <div class="star-options" role="radiogroup" aria-label="Rating">
@@ -55,7 +55,7 @@
             <div class="big-stars">
               <i v-for="n in 5" :key="n" class="fas fa-star"></i>
             </div>
-            <p class="google-msg">We're thrilled you had a great experience! Your review on Google helps families in South Florida find trusted glass repair.</p>
+            <p class="google-msg">We're thrilled you had a great experience! Your review on Google helps families in Cleveland find trusted window repair and tinting services.</p>
             <a
               :href="googleReviewUrl"
               target="_blank"
@@ -179,10 +179,10 @@ const submitFeedback = async () => {
 }
 
 useHead({
-  title: 'Rate Your Experience | The Glassperts',
+  title: 'Rate Your Experience | Iced Window Tints',
   meta: [
     { name: 'robots', content: 'noindex' },
-    { name: 'description', content: 'Share your experience with The Glassperts.' }
+    { name: 'description', content: 'Share your experience with Iced Window Tints.' }
   ]
 })
 </script>

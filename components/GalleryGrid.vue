@@ -27,12 +27,12 @@ import companyVan from '~/assets/images/company-van.png'
 import heroBg from '~/assets/images/hero-bg.png'
 
 const galleryItems = [
-  { image: slidingDoor, alt: 'Sliding glass door repair' },
-  { image: windowRepair, alt: 'Window glass repair work' },
-  { image: commercialGlass, alt: 'Commercial glass installation' },
-  { image: companyVan, alt: 'The Glassperts service van' },
-  { image: heroBg, alt: 'Glass repair in progress' },
-  { image: slidingDoor, alt: 'Completed sliding door repair' },
+  { image: slidingDoor, alt: 'Vehicle window tinting' },
+  { image: windowRepair, alt: 'Home window glass repair' },
+  { image: commercialGlass, alt: 'Commercial window tinting' },
+  { image: companyVan, alt: 'Iced Window Tints service vehicle' },
+  { image: heroBg, alt: 'Window repair work in progress' },
+  { image: slidingDoor, alt: 'Completed window tint job' },
 ]
 </script>
 

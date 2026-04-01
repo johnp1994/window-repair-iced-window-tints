@@ -6,7 +6,7 @@
         <div class="areas-map">
           <div class="map-placeholder">
             <i class="fas fa-map-marked-alt"></i>
-            <p>South Florida Service Area</p>
+            <p>Cleveland, Ohio Service Area</p>
           </div>
         </div>
         <div class="areas-list">
@@ -26,8 +26,8 @@
 
 <script setup lang="ts">
 const areas = [
-  'Miami', 'Kendall', 'Coral Gables', 'Homestead', 'Pinecrest',
-  'Miami Lakes', 'Miami Beach', 'Hollywood', 'Cutler Bay', 'Cutler Ridge',
+  'Cleveland', 'Lakewood', 'Euclid', 'Parma', 'Cleveland Heights',
+  'Shaker Heights', 'Garfield Heights', 'Solon', 'Beachwood', 'Westlake',
 ]
 </script>
 

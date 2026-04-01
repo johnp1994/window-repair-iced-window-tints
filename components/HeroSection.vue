@@ -3,8 +3,8 @@
     <div class="hero-overlay"></div>
     <div class="hero-inner">
       <div class="hero-content">
-        <h1 class="hero-title">THE GLASSPERTS<br/>SLIDING GLASS DOOR &amp; WINDOW REPAIR</h1>
-        <p class="hero-subtitle">The glassperts sliding glass door &amp; window repair specializes in sliding door, window, and glass repair. With a foundation built on expertise gained from over 5 years of industry experience, we offer reliable services like sliding glass door repair, window glass repair, commercial glass repair, and installation of impact windows and doors.</p>
+        <h1 class="hero-title">ICED WINDOW TINTS<br/>VEHICLE TINTING & HOME REPAIR</h1>
+        <p class="hero-subtitle">Iced Window Tints specializes in premium vehicle tinting and expert home window repair services in Cleveland, Ohio. With a commitment to quality and professional service, we ensure your windows are perfectly iced and protected.</p>
       </div>
       <QuoteForm />
     </div>

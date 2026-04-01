@@ -1,7 +1,7 @@
 <template>
   <div class="hero-form-wrapper" id="quote-form">
     <div class="hero-form-card">
-      <img src="~/assets/images/logo.png" alt="The Glassperts" class="form-logo" />
+      <img src="~/assets/images/logo.png" alt="Iced Window Tints" class="form-logo" />
       <h2 class="form-title">GET A FREE QUOTE</h2>
       <form id="quote-form-element" class="quote-form" @submit.prevent="handleSubmit">
         <div class="form-row">

@@ -41,7 +41,11 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: 'en' },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      titleTemplate: '%s | The Glassperts',
+      titleTemplate: '%s | Iced Window Tints',
+      meta: [
+        { name: 'description', content: 'Iced Window Tints - Premium Vehicle Tinting & Home Window Repair in Cleveland, Ohio.' },
+        { name: 'keywords', content: 'window repair, window tinting, cleveland, ohio, car tints, home window repair' }
+      ],
       link: [
         { rel: 'icon', type: 'image/png', href: '/favicon.svg' },
         {

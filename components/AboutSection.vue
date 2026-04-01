@@ -4,11 +4,11 @@
       <div class="about-grid animate-in">
         <div class="about-content">
           <h2 class="section-title">ABOUT US<span class="title-underline"></span></h2>
-          <p>The glassperts sliding glass door &amp; window repair is a family-owned business started by Manny Vega, who began his career at 16 and decided to open the company in 2007. We bring years of hands-on experience in sliding door, window, and glass repair, focusing on quality and customer satisfaction.</p>
-          <p class="about-highlight">WHAT WE ARE BEST AT</p>
+          <p>Iced Window Tints is a premier window service provider in Cleveland, Ohio. Led by Zay, we specialize in high-quality vehicle window tinting and expert home window repairs. Our commitment to excellence and customer satisfaction has made us a trusted name in the community. We pride ourselves on our attention to detail and professional approach to every job.</p>
+          <p class="about-highlight">ICE-COLD PRECISION IN EVERY TINT</p>
         </div>
         <div class="about-image">
-          <img src="~/assets/images/company-van.png" alt="The Glassperts Company Van" />
+          <img src="~/assets/images/company-van.png" alt="Iced Window Tints Service Vehicle" />
         </div>
       </div>
     </div>

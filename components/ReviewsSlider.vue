@@ -38,24 +38,34 @@
 <script setup lang="ts">
 const reviews = [
   {
-    name: 'Maria G.',
-    location: 'Miami, FL',
-    text: 'The Glassperts did an amazing job repairing our sliding glass door. It works like new! Fast, professional, and affordable. Highly recommend.',
+    name: 'Caelan Buckley',
+    location: 'Cleveland, OH',
+    text: 'If you’re looking for tints in the Cleveland area hit them up! I called them got me in as soon I wanted and were super nice and clearly loves what he does. 10/10 would recommend.',
   },
   {
-    name: 'Carlos R.',
-    location: 'Kendall, FL',
-    text: 'Excellent service! They replaced the rollers on my patio door and now it glides perfectly. Very knowledgeable and friendly team. Will call again.',
+    name: 'Gabby Moffitt',
+    location: 'Cleveland, OH',
+    text: 'Really happy with the tint done on my Jetta. Customer service was great and I was walked through the process of choosing my tint levels. Price was really good compared to other places.',
   },
   {
-    name: 'Jennifer L.',
-    location: 'Hollywood, FL',
-    text: 'We had a broken window and needed quick help. The Glassperts came out the same day and fixed it. Great communication and competitive pricing.',
+    name: 'Aidan Mc',
+    location: 'Cleveland, OH',
+    text: 'Best place! I wasn’t sure what % tint i wanted but i explained how i wanted the car to look and Zay did an even better job than i could’ve asked for. Couldn’t be happier!',
   },
   {
-    name: 'David M.',
-    location: 'Coral Gables, FL',
-    text: 'Impact window installation was seamless. They handled everything professionally from start to finish. Our home feels safer now. Thank you!',
+    name: 'Jovan Reynolds',
+    location: 'Cleveland, OH',
+    text: 'Solid dude great customer service i highly recommend they got me in and out last minute too. They do great work I’ll be coming here from now on.',
+  },
+  {
+    name: 'Bezalel Denciger',
+    location: 'Cleveland, OH',
+    text: 'He did an amazing job I’m very happy with his service will recommend to friends very friendly guy.',
+  },
+  {
+    name: 'Lottie Facenbaker',
+    location: 'Cleveland, OH',
+    text: 'Zay provided exceptional service. His professionalism, friendliness, and efficiency were outstanding. I HIGHLY recommend him.',
   },
 ]
 

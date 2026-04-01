@@ -3,11 +3,12 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="~/assets/images/logo.png" alt="The Glassperts" class="footer-logo" />
-          <p>The glassperts sliding glass door &amp; window repair</p>
+          <img src="~/assets/images/logo.png" alt="Iced Window Tints" class="footer-logo" />
+          <p>Iced Window Tints — Premium Vehicle Tinting & Home Window Repair</p>
           <div class="footer-contact-info">
-            <a href="tel:+18664937545"><i class="fas fa-phone"></i> (866)-493-7545</a>
-            <a href="mailto:Candy@glassexpertsfl.com"><i class="fas fa-envelope"></i> Candy@glassexpertsfl.com</a>
+            <a href="tel:+12166788692"><i class="fas fa-phone"></i> (216) 678-8692</a>
+            <a href="https://maps.google.com/?q=1418+E+176th+St,+Cleveland,+OH+44110" target="_blank"><i class="fas fa-map-marker-alt"></i> 1418 E 176th St, Cleveland, OH 44110</a>
+            <a href="mailto:info@icedwindowtints.com"><i class="fas fa-envelope"></i> info@icedwindowtints.com</a>
           </div>
         </div>
         <div class="footer-links">
@@ -24,10 +25,10 @@
         <div class="footer-links">
           <h4>OUR SERVICES</h4>
           <ul>
-            <li><a href="#services">Sliding Glass Door</a></li>
-            <li><a href="#services">Window Glass Repair</a></li>
-            <li><a href="#services">Commercial Glass</a></li>
-            <li><a href="#services">Impact Windows &amp; Doors</a></li>
+            <li><a href="#services">Vehicle Window Tinting</a></li>
+            <li><a href="#services">Home Window Repair</a></li>
+            <li><a href="#services">Commercial Window Tinting</a></li>
+            <li><a href="#services">Storm Window Solutions</a></li>
           </ul>
         </div>
         <div class="footer-links">
@@ -52,7 +53,7 @@
           <a href="#">Terms &amp; Conditions</a>
           <a href="#">Privacy Policy</a>
         </div>
-        <p>&copy; {{ currentYear }} The Glassperts. All Rights Reserved.</p>
+        <p>&copy; {{ currentYear }} Iced Window Tints. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
@@ -62,8 +63,8 @@
 const currentYear = new Date().getFullYear()
 
 const areas = [
-  'Miami', 'Kendall', 'Coral Gables', 'Homestead', 'Pinecrest',
-  'Miami Lakes', 'Miami Beach', 'Hollywood', 'Cutler Bay', 'Cutler Ridge',
+  'Cleveland', 'Lakewood', 'Euclid', 'Parma', 'Cleveland Heights',
+  'Shaker Heights', 'Garfield Heights', 'Solon', 'Beachwood', 'Westlake',
 ]
 
 const hours = [

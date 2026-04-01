@@ -30,27 +30,27 @@ import commercialGlass from '~/assets/images/commercial-glass.png'
 
 const services = [
   {
-    id: 'service-sliding-door',
-    title: 'Sliding Glass Door Repair',
-    description: 'Expert repairs for smooth and secure sliding glass doors, addressing issues with tracks, rollers, and locks.',
+    id: 'service-vehicle-tint',
+    title: 'Vehicle Window Tinting',
+    description: 'Premium automotive tinting services for enhanced privacy, heat reduction, and UV protection for your vehicle.',
     image: slidingDoor,
   },
   {
-    id: 'service-window-repair',
-    title: 'Window Glass Repair',
-    description: 'Professional repair services for cracked or damaged windows, ensuring clarity and insulation.',
+    id: 'service-home-repair',
+    title: 'Home Window Repair',
+    description: 'Expert residential window repair services in Cleveland, addressing cracks, seals, and glass replacement.',
     image: windowRepair,
   },
   {
-    id: 'service-commercial',
-    title: 'Commercial Glass Repair',
-    description: 'Specialized repair and replacement for commercial glass, including storefronts and office windows.',
+    id: 'service-commercial-tint',
+    title: 'Commercial Window Tinting',
+    description: 'Energy-efficient and secure window tinting solutions for businesses, offices, and storefronts.',
     image: commercialGlass,
   },
   {
-    id: 'service-impact-windows',
-    title: 'Impact Windows and Doors',
-    description: 'Installation of durable impact-resistant windows and doors to enhance safety and energy efficiency.',
+    id: 'service-storm-window',
+    title: 'Storm Window Solutions',
+    description: 'Specialized repair and tinting for storm windows to improve durability and insulation in any weather.',
     image: slidingDoor,
   },
 ]
