@@ -78,12 +78,12 @@
           @keyup.enter="handleUserChat" 
           type="text" 
           placeholder="Ask a follow-up question..." 
-          :disabled="isSending || totalSent >= 10"
+          :disabled="isSending || totalSent >= 5"
         />
-        <button @click="handleUserChat" :disabled="isSending || totalSent >= 10">
+        <button @click="handleUserChat" :disabled="isSending || totalSent >= 5">
           <i class="fas fa-paper-plane"></i>
         </button>
-        <div v-if="totalSent >= 10" class="limit-warning">Message limit reached. Please call us at (866)-493-7545 for further help!</div>
+        <div v-if="totalSent >= 5" class="limit-warning">Message limit reached. Please call us at (866)-493-7545 for further help!</div>
       </div>
     </div>
   </div>
@@ -151,7 +151,7 @@ const handleLeadSubmit = async () => {
 }
 
 const handleUserChat = async () => {
-  if (!currentMessage.value.trim() || totalSent.value >= 10 || isSending.value) return
+  if (!currentMessage.value.trim() || totalSent.value >= 5 || isSending.value) return
   
   const text = currentMessage.value.trim()
   currentMessage.value = ''
