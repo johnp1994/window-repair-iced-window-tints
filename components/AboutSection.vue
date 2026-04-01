@@ -9,7 +9,7 @@
           <p class="about-highlight">THE ICER: 3000+ VEHICLES TRANSFORMED 🥶🔪</p>
         </div>
         <div class="about-image">
-          <img src="~/assets/images/company-van.png" alt="Iced Window Tints Service Vehicle" />
+          <img src="~/assets/images/iced-van.png" alt="Iced Window Tints Service Vehicle" />
         </div>
       </div>
     </div>

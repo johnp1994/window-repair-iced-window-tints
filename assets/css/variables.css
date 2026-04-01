@@ -3,16 +3,16 @@
    =================================================== */
 :root {
   /* Brand Colors — ICED THEME */
-  --primary: #00E5FF;
+  --primary: #00E5FF; /* Ice Blue Neon */
   --primary-dark: #00B8D4;
   --primary-rgb: 0, 229, 255;
   --ice-blue: #E0F7FA;
-  --navy-deep: #0A192F;
-  --navy-rgb: 10, 25, 47;
+  --navy-deep: #050A14; /* Much darker/near black */
+  --navy-rgb: 5, 10, 20;
   --silver: #B0BEC5;
-  --dark: #050A14;
-  --gray-bg: #F0F4F8;
-  --gray-card: #FFFFFF;
+  --dark: #02050A;
+  --gray-bg: #0A192F; /* Dark background for sections */
+  --gray-card: #112240; /* Darker card background */
   --white: #FFFFFF;
   --accent: #FF4081; /* Small subtle accent if needed, otherwise stick to blues */
   --success: #00C853;

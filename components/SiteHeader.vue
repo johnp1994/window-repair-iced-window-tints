@@ -2,7 +2,7 @@
   <header id="site-header" :class="{ scrolled: isScrolled }">
     <div class="header-inner">
       <NuxtLink to="/" class="logo" id="header-logo">
-        <img src="~/assets/images/logo.png" alt="Iced Window Tints Logo" />
+        <img src="~/assets/images/iced-logo.png" alt="Iced Window Tints Logo" />
       </NuxtLink>
 
       <nav id="main-nav" :class="{ active: isMobileMenuOpen }">

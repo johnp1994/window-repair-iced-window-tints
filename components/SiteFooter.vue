@@ -3,8 +3,8 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="~/assets/images/logo.png" alt="Iced Window Tints" class="footer-logo" />
-          <p>Iced Window Tints — Premium Vehicle Tinting & Home Window Repair</p>
+          <img src="~/assets/images/iced-logo.png" alt="Iced Window Tints" class="footer-logo" />
+          <p>Iced Window Tints — Cleveland's premier automotive styling powerhouse. High-end tints, vinyl wraps, and professional detailing.</p>
           <div class="footer-contact-info">
             <a href="tel:+12166788692"><i class="fas fa-phone"></i> (216) 678-8692</a>
             <a href="https://maps.google.com/?q=1418+E+176th+St,+Cleveland,+OH+44110" target="_blank"><i class="fas fa-map-marker-alt"></i> 1418 E 176th St, Cleveland, OH 44110</a>

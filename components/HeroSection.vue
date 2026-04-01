@@ -20,7 +20,7 @@
 .hero-section {
   position: relative;
   min-height: 100vh;
-  background: url('~/assets/images/hero-bg.png') center center / cover no-repeat;
+  background: url('~/assets/images/iced-hero-bg.png') center center / cover no-repeat;
   display: flex;
   align-items: center;
   padding-top: var(--header-height);
