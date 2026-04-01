@@ -22,17 +22,17 @@
 
 <script setup lang="ts">
 const steps = [
-  { icon: 'fas fa-phone-alt', title: 'Contact Us', description: 'Reach out to us by phone or through our contact form' },
-  { icon: 'fas fa-clipboard-list', title: 'Free Estimate', description: 'We provide a free, no-obligation estimate for your needs' },
-  { icon: 'fas fa-tools', title: 'Repair', description: 'Our expert technicians perform the repair with quality materials' },
-  { icon: 'fas fa-check-circle', title: 'Complete', description: 'Enjoy your perfectly repaired glass doors and windows' },
+  { icon: 'fas fa-phone-alt', title: 'Consultation', description: 'Reach out for a custom quote for your automotive or commercial project.' },
+  { icon: 'fas fa-clipboard-list', title: 'Design & Quote', description: 'We design your vision and provide a precise, no-obligation estimate.' },
+  { icon: 'fas fa-tools', title: 'The Transformation', description: 'Our masters apply your premium tint, wrap, or detail with surgical precision.' },
+  { icon: 'fas fa-check-circle', title: 'The Reveal', description: 'Drive away in your "Iced Out" masterpiece. Total satisfaction guaranteed.' },
 ]
 </script>
 
 <style scoped>
 .process-section {
   padding: var(--section-padding);
-  background: var(--white);
+  background: var(--navy-deep);
 }
 
 .process-grid {
@@ -58,7 +58,7 @@ const steps = [
   width: 32px;
   height: 32px;
   border-radius: var(--radius-circle);
-  background: var(--gold);
+  background: var(--primary);
   color: var(--navy);
   font-family: var(--font-heading);
   font-weight: 800;
@@ -73,31 +73,32 @@ const steps = [
   width: 80px;
   height: 80px;
   border-radius: var(--radius-circle);
-  background: var(--navy);
-  color: var(--white);
+  background: var(--gray-card);
+  color: var(--primary);
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.8rem;
   margin-bottom: 16px;
   transition: all var(--transition-fast);
+  border: 1px solid var(--border-light);
 }
 
 .process-step:hover .process-icon {
-  background: var(--gold);
+  background: var(--primary);
   color: var(--navy);
   transform: scale(1.1);
 }
 
 .process-step h3 {
-  font-size: 0.9rem;
-  color: var(--navy);
+  font-size: 1rem;
+  color: var(--white);
   margin-bottom: 8px;
 }
 
 .process-step p {
-  font-size: 0.82rem;
-  color: var(--text-muted);
+  font-size: 0.85rem;
+  color: var(--text-secondary);
   line-height: 1.5;
 }
 
@@ -105,7 +106,7 @@ const steps = [
   display: flex;
   align-items: center;
   padding-top: 75px;
-  color: var(--gold);
+  color: var(--primary);
   font-size: 1.2rem;
 }
 

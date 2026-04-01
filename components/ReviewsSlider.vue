@@ -130,7 +130,7 @@ onMounted(() => {
 <style scoped>
 .reviews-section {
   padding: var(--section-padding);
-  background: var(--white);
+  background: var(--navy-deep);
 }
 
 .reviews-slider {
@@ -150,19 +150,19 @@ onMounted(() => {
   background: var(--gray-card);
   border-radius: var(--radius-lg);
   padding: 32px;
-  border: 1px solid var(--border-card);
+  border: 1px solid var(--border-light);
   transition: all var(--transition-fast);
 }
 
 .review-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
-  border-color: var(--gold);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+  border-color: var(--primary);
 }
 
 .review-stars {
   margin-bottom: 16px;
-  color: var(--gold);
+  color: var(--primary);
   font-size: 1rem;
   display: flex;
   gap: 3px;
@@ -170,7 +170,7 @@ onMounted(() => {
 
 .review-text {
   color: var(--text-secondary);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.7;
   font-style: italic;
   margin-bottom: 20px;
@@ -186,8 +186,8 @@ onMounted(() => {
   width: 44px;
   height: 44px;
   border-radius: var(--radius-circle);
-  background: var(--navy);
-  color: var(--gold);
+  background: var(--primary);
+  color: var(--navy);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -198,13 +198,13 @@ onMounted(() => {
   display: block;
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: 0.9rem;
-  color: var(--navy);
+  font-size: 0.95rem;
+  color: var(--white);
 }
 
 .review-author span {
-  font-size: 0.78rem;
-  color: var(--text-light);
+  font-size: 0.8rem;
+  color: var(--text-muted);
 }
 
 .slider-controls {

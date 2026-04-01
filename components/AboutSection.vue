@@ -19,7 +19,7 @@
 <style scoped>
 .about-section {
   padding: var(--section-padding);
-  background: var(--white);
+  background: var(--navy-deep);
 }
 
 .about-grid {

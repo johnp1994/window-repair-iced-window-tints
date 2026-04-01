@@ -20,7 +20,7 @@ html {
 body {
   font-family: var(--font-body);
   color: var(--text-primary);
-  background: var(--white);
+  background: var(--dark);
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -73,15 +73,16 @@ ul {
 }
 
 .btn-yellow {
-  background: var(--gold);
-  color: var(--navy);
-  border-color: var(--gold);
+  background: var(--primary);
+  color: var(--dark);
+  border-color: var(--primary);
 }
 .btn-yellow:hover {
-  background: var(--gold-dark);
-  border-color: var(--gold-dark);
+  background: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: var(--white);
   transform: translateY(-2px);
-  box-shadow: var(--shadow-gold);
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
 }
 
 .btn-white {
@@ -135,8 +136,8 @@ ul {
 
 /* ---------- SECTION TITLES ---------- */
 .section-title {
-  font-size: 2rem;
-  color: var(--navy);
+  font-size: 2.2rem;
+  color: var(--white);
   position: relative;
   display: inline-block;
   margin-bottom: 30px;
@@ -165,11 +166,11 @@ ul {
 .section-label {
   text-align: center;
   font-family: var(--font-heading);
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.85rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  color: var(--text-light);
+  letter-spacing: 3px;
+  color: var(--primary);
   margin-bottom: 8px;
 }
 
