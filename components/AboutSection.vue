@@ -4,8 +4,9 @@
       <div class="about-grid animate-in">
         <div class="about-content">
           <h2 class="section-title">ABOUT US<span class="title-underline"></span></h2>
-          <p>Iced Window Tints is Cleveland's premier shop for expert Automotive Window Tinting, custom Vinyl Wraps, and Professional Detailing. Led by Zay, we specialize in transforming vehicles with high-quality finishes while also providing expert residential and commercial window solutions. Our commitment to excellence, meticulous attention to detail, and customer satisfaction has made us a trusted name for both car enthusiasts and homeowners throughout Cleveland, Ohio.</p>
-          <p class="about-highlight">ICE-COLD PRECISION IN EVERY TINT</p>
+          <p>Founded and led by Zay, Iced Window Tints is Cleveland's premier automotive styling and maintenance powerhouse. With over <strong>4+ years of industry experience</strong> and <strong>3000+ vehicles</strong> successfully transformed, Zay has built a reputation for perfection in everything from high-end window tinting and custom vinyl wraps to comprehensive detailing.</p>
+          <p>We're not just about tints; we are a full-service custom shop. Whether you're looking for professional paint correction and ceramic coating, custom painted calipers and rims, or expert mechanical maintenance like oil changes and brakes, Iced Window Tints delivers "ice-cold" precision to every job.</p>
+          <p class="about-highlight">THE ICER: 3000+ VEHICLES TRANSFORMED 🥶🔪</p>
         </div>
         <div class="about-image">
           <img src="~/assets/images/company-van.png" alt="Iced Window Tints Service Vehicle" />

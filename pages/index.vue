@@ -20,7 +20,7 @@ useScrollAnimation()
 useSeoMeta({
   title: 'Home Window Repair & Vehicle Tinting Cleveland | Iced Window Tints',
   ogTitle: 'Iced Window Tints - Home Window Repair & Vehicle Tinting Cleveland',
-  description: 'Iced Window Tints in Cleveland, Ohio specializes in premium vehicle tinting and expert home window repair services. Call (216) 678-8692 for a free quote.',
+  description: 'Iced Window Tints in Cleveland, Ohio has transformed over 3000+ vehicles. Expert automotive styling, vinyl wraps, detailing, and residential window services. Call (216) 678-8692.',
   ogDescription: 'Expert vehicle window tinting and home window repair in Cleveland, Ohio. Quality service by Iced Window Tints.',
   ogType: 'website',
   keywords: 'window repair cleveland, vehicle tinting cleveland, home window repair ohio, car tinting cleveland, iced window tints, window glass repair ohio',
@@ -51,6 +51,11 @@ useHead({
           "@type": "GeoCoordinates",
           "latitude": 41.5645,
           "longitude": -81.5604
+        },
+        "amenityFeature": {
+          "@type": "LocationFeatureSpecification",
+          "name": "Wheelchair Accessible Entrance",
+          "value": true
         },
         "openingHoursSpecification": [
           { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "08:30", "closes": "21:00" },

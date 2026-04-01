@@ -30,27 +30,39 @@ import commercialGlass from '~/assets/images/commercial-glass.png'
 
 const services = [
   {
-    id: 'service-vehicle-tint',
-    title: 'Automotive Window Tinting',
-    description: 'Premium carbon and ceramic window films for heat rejection, UV protection, and a sleek look for your vehicle.',
+    id: 'service-auto-styling',
+    title: 'Automotive Styling',
+    description: 'Expert window tinting, headlight & taillight tints, custom vinyl wraps, decals, and chrome deletes for a total transformation.',
     image: slidingDoor,
   },
   {
-    id: 'service-vinyl-wrap',
-    title: 'Vinyl Wrap Services',
-    description: 'Transform your vehicle with our custom vinyl wraps. From color changes to accents, we provide a perfect finish.',
+    id: 'service-paint-protection',
+    title: 'Detailing & Protection',
+    description: 'Full interior/exterior detailing, paint correction, and ceramic coating for long-lasting "iced-out" shine and protection.',
     image: windowRepair,
   },
   {
-    id: 'service-detailing',
-    title: 'Professional Detailing',
-    description: 'Deep cleaning and restoration services to keep your vehicle looking brand new, inside and out.',
+    id: 'service-custom-wheels',
+    title: 'Custom Aesthetics',
+    description: 'Painted rims and painted calipers in any color of your choice, plus custom "shooting stars" interior headliners.',
     image: commercialGlass,
   },
   {
-    id: 'service-home-tint',
-    title: 'Home & Commercial Tinting',
-    description: 'Residential and commercial window tinting to reduce glare, save energy, and enhance privacy.',
+    id: 'service-mechanical',
+    title: 'Mechanical Maintenance',
+    description: 'Keeping your vehicle running as good as it looks with professional oil changes, brake service, and new tires.',
+    image: slidingDoor,
+  },
+  {
+    id: 'service-aftermarket',
+    title: 'Tech & Aftermarket Installs',
+    description: 'Installation of radios, speakers, and any aftermarket parts to upgrade your ride with the latest technology.',
+    image: windowRepair,
+  },
+  {
+    id: 'service-arch-tint',
+    title: 'Commercial & Home Tints',
+    description: 'Professional tinting for your business or home to improve energy efficiency, privacy, and curb appeal.',
     image: slidingDoor,
   },
 ]

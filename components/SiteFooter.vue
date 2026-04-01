@@ -25,10 +25,12 @@
         <div class="footer-links">
           <h4>OUR SERVICES</h4>
           <ul>
-            <li><a href="#services">Vehicle Window Tinting</a></li>
-            <li><a href="#services">Home Window Repair</a></li>
-            <li><a href="#services">Commercial Window Tinting</a></li>
-            <li><a href="#services">Storm Window Solutions</a></li>
+            <li><a href="#services">Auto Window Tinting</a></li>
+            <li><a href="#services">Vinyl Wrap & Decals</a></li>
+            <li><a href="#services">Professional Detailing</a></li>
+            <li><a href="#services">Paint Correction & Ceramic</a></li>
+            <li><a href="#services">Mechanical Maintenance</a></li>
+            <li><a href="#services">Home & Commercial Tint</a></li>
           </ul>
         </div>
         <div class="footer-links">

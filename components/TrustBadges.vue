@@ -18,6 +18,7 @@ const badges = [
   { icon: 'fas fa-award', label: '23+ Years Experience' },
   { icon: 'fas fa-shield-halved', label: 'Insured' },
   { icon: 'fas fa-certificate', label: 'Fully Licensed' },
+  { icon: 'fas fa-wheelchair', label: 'Handicap Accessible' },
 ]
 </script>
 

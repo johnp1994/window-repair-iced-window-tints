@@ -15,10 +15,11 @@
               SERVICES <i class="fas fa-chevron-down"></i>
             </a>
             <ul class="dropdown">
-              <li><a href="#services" @click="scrollTo('#services')">Vehicle Window Tinting</a></li>
-              <li><a href="#services" @click="scrollTo('#services')">Home Window Repair</a></li>
-              <li><a href="#services" @click="scrollTo('#services')">Commercial Window Tinting</a></li>
-              <li><a href="#services" @click="scrollTo('#services')">Storm Window Solutions</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Auto Window Tinting</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Vinyl Wrap Services</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Professional Detailing</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Mechanical & Custom</a></li>
+              <li><a href="#services" @click="scrollTo('#services')">Home/Commercial Tint</a></li>
             </ul>
           </li>
           <li>

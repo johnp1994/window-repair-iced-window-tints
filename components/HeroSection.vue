@@ -4,7 +4,7 @@
     <div class="hero-inner">
       <div class="hero-content">
         <h1 class="hero-title">ICED WINDOW TINTS<br/>VEHICLE TINTING & HOME REPAIR</h1>
-        <p class="hero-subtitle">Iced Window Tints — Cleveland's premier destination for expert Automotive Window Tinting, custom Vinyl Wraps, and Professional Detailing. We also provide high-quality residential and commercial window services.</p>
+        <p class="hero-subtitle">Iced Window Tints — Cleveland's premier destination with over <strong>3000+ vehicles</strong> transformed. We offer expert Automotive Window Tinting, custom Vinyl Wraps, Professional Detailing, and much more.</p>
       </div>
       <QuoteForm />
     </div>
