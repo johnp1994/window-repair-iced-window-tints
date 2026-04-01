@@ -68,13 +68,13 @@ const areas = [
 ]
 
 const hours = [
-  { label: 'Sun', time: '8:00am - 5:00pm' },
-  { label: 'Mon', time: '8:00am - 8:00pm' },
-  { label: 'Tue', time: '8:00am - 8:00pm' },
-  { label: 'Wed', time: '8:00am - 5:00pm' },
-  { label: 'Thu', time: '8:00am - 8:00pm' },
-  { label: 'Fri', time: '8:00am - 8:00pm' },
-  { label: 'Sat', time: '8:00am - 8:00pm' },
+  { label: 'Mon', time: '8:30am - 9:00pm' },
+  { label: 'Tue', time: '8:30am - 9:00pm' },
+  { label: 'Wed', time: '8:30am - 8:00pm' },
+  { label: 'Thu', time: '8:30am - 8:00pm' },
+  { label: 'Fri', time: '8:30am - 9:00pm' },
+  { label: 'Sat', time: '8:30am - 9:00pm' },
+  { label: 'Sun', time: '8:30am - 8:00pm' },
 ]
 </script>
 
