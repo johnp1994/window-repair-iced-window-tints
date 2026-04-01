@@ -30,16 +30,16 @@ const faqs = [
     answer: 'Absolutely, we can provide references from past clients. Additionally, you can read the reviews and testimonials from our satisfied customers on our website. If you would like to speak with specific past clients, we can provide their contact information upon request.',
   },
   {
-    question: 'What sets you apart from other contractors in the area?',
-    answer: 'At The glassperts sliding glass door & window repair, we distinguish ourselves through meticulous attention to detail, a dedication to quality, and a personalized approach. We prioritize client communication to seamlessly bring their vision to life.',
+    question: 'What sets you apart from other shops in Cleveland?',
+    answer: 'At Iced Window Tints, we distinguish ourselves through meticulous attention to detail, a dedication to high-quality results, and a personalized approach. We treat every vehicle and home as our own, ensuring a flawless "iced" finish every time.',
   },
   {
     question: 'What types of services do you offer?',
-    answer: 'Our services at The glassperts sliding glass door & window repair include sliding glass door repair, window glass repair, commercial glass repair, and installation of impact windows and doors. We are dedicated to providing top-quality workmanship and reliable solutions.',
+    answer: 'Our services at Iced Window Tints include professional automotive window tinting, full and partial vinyl wraps, expert detailing, and residential window repair. We are dedicated to providing top-quality workmanship and reliable solutions.',
   },
   {
-    question: 'Is there a fee for a consultation or estimate/quote?',
-    answer: 'No, The glassperts sliding glass door & window repair offers complimentary estimates to all prospective clients.',
+    question: 'Is there a fee for a consultation or quote?',
+    answer: 'No, Iced Window Tints offers complimentary estimates to all prospective clients.',
   },
 ]
 

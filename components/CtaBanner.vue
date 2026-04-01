@@ -2,10 +2,10 @@
   <section id="cta-banner" class="cta-section">
     <div class="container">
       <h2>GET A FREE QUOTE TODAY!</h2>
-      <p>The glassperts sliding glass door &amp; window repair</p>
+      <p>Iced Window Tints — Premium Vehicle & Window Services</p>
       <div class="cta-buttons">
-        <a href="tel:+18664937545" class="btn btn-yellow btn-large" id="cta-phone-btn">
-          <i class="fas fa-phone"></i> (866)-493-7545
+        <a href="tel:+12166788692" class="btn btn-yellow btn-large" id="cta-phone-btn">
+          <i class="fas fa-phone"></i> (216) 678-8692
         </a>
         <a href="#quote-form" class="btn btn-outline-white btn-large" id="cta-quote-btn" @click.prevent="scrollToQuote">
           GET FREE QUOTE

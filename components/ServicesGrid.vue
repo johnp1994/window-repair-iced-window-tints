@@ -31,26 +31,26 @@ import commercialGlass from '~/assets/images/commercial-glass.png'
 const services = [
   {
     id: 'service-vehicle-tint',
-    title: 'Vehicle Window Tinting',
-    description: 'Premium automotive tinting services for enhanced privacy, heat reduction, and UV protection for your vehicle.',
+    title: 'Automotive Window Tinting',
+    description: 'Premium carbon and ceramic window films for heat rejection, UV protection, and a sleek look for your vehicle.',
     image: slidingDoor,
   },
   {
-    id: 'service-home-repair',
-    title: 'Home Window Repair',
-    description: 'Expert residential window repair services in Cleveland, addressing cracks, seals, and glass replacement.',
+    id: 'service-vinyl-wrap',
+    title: 'Vinyl Wrap Services',
+    description: 'Transform your vehicle with our custom vinyl wraps. From color changes to accents, we provide a perfect finish.',
     image: windowRepair,
   },
   {
-    id: 'service-commercial-tint',
-    title: 'Commercial Window Tinting',
-    description: 'Energy-efficient and secure window tinting solutions for businesses, offices, and storefronts.',
+    id: 'service-detailing',
+    title: 'Professional Detailing',
+    description: 'Deep cleaning and restoration services to keep your vehicle looking brand new, inside and out.',
     image: commercialGlass,
   },
   {
-    id: 'service-storm-window',
-    title: 'Storm Window Solutions',
-    description: 'Specialized repair and tinting for storm windows to improve durability and insulation in any weather.',
+    id: 'service-home-tint',
+    title: 'Home & Commercial Tinting',
+    description: 'Residential and commercial window tinting to reduce glare, save energy, and enhance privacy.',
     image: slidingDoor,
   },
 ]

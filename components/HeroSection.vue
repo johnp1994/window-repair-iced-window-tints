@@ -4,7 +4,7 @@
     <div class="hero-inner">
       <div class="hero-content">
         <h1 class="hero-title">ICED WINDOW TINTS<br/>VEHICLE TINTING & HOME REPAIR</h1>
-        <p class="hero-subtitle">Iced Window Tints specializes in premium vehicle tinting and expert home window repair services in Cleveland, Ohio. With a commitment to quality and professional service, we ensure your windows are perfectly iced and protected.</p>
+        <p class="hero-subtitle">Iced Window Tints — Cleveland's premier destination for expert Automotive Window Tinting, custom Vinyl Wraps, and Professional Detailing. We also provide high-quality residential and commercial window services.</p>
       </div>
       <QuoteForm />
     </div>
