@@ -28,7 +28,7 @@
         <div class="bot-msg-wrap" v-if="!isLeadCaptured">
           <img src="~/assets/images/logo.png" alt="Bot Logo" class="bot-avatar" />
           <div class="bot-msg">
-            This Text goes straight to my personal phone. I will make sure to get back to you the second I'm free!
+            Welcome to Iced Window Tints! We are currently upgrading our digital messaging platform to better serve our clients. For immediate assistance or to schedule your next transformation, please call us at (216) 678-8692. Real-time chat is coming soon!
           </div>
         </div>
 
@@ -83,7 +83,7 @@
         <button @click="handleUserChat" :disabled="isSending || totalSent >= 5">
           <i class="fas fa-paper-plane"></i>
         </button>
-        <div v-if="totalSent >= 5" class="limit-warning">Message limit reached. Please call us at (866)-493-7545 for further help!</div>
+        <div v-if="totalSent >= 5" class="limit-warning">Message limit reached. Please call us at (216) 678-8692 for further help!</div>
       </div>
     </div>
   </div>
@@ -138,11 +138,11 @@ const handleLeadSubmit = async () => {
     })
     
     if (response) {
-      messages.value.push({ role: 'bot', text: response.output || response.text || "Thanks! Someone will contact you shortly." })
+      messages.value.push({ role: 'bot', text: response.output || response.text || "Thank you for your message. Our live chat is currently being upgraded—we have received your request and will follow up shortly!" })
     }
   } catch (e) {
     console.error('Chat error:', e)
-    messages.value.push({ role: 'bot', text: "Thanks for the info! We've received your request and will reach out to you." })
+    messages.value.push({ role: 'bot', text: "Thank you for reaching out! Our real-time chat is currently under maintenance. We have received your inquiry and a specialist will contact you very soon." })
   } finally {
     isSending.value = false
     isTyping.value = false
